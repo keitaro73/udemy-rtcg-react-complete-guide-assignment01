@@ -4,7 +4,7 @@ const userOutput = (props) => {
     return (
         <div>
             <p>Welcome back, { props.userName }!</p>
-            <p>The cake is a lie!</p>
+            <p>{ props.greeting }</p>
         </div>
     );
 }
